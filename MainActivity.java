@@ -93,15 +93,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void addContact(){
         contacts = new ArrayList<>();
-        contacts.add(new Contact("Rimma N",
+        contacts.add(new Contact("Bob",
                 "87475418588", R.drawable.mike));
-        contacts.add(new Contact("Amina N",
+        contacts.add(new Contact("Drake",
                 "87078955985", R.drawable.user));
-        contacts.add(new Contact("Kamila N",
+        contacts.add(new Contact("Josh",
                 "87071237895", R.drawable.user));
-        contacts.add(new Contact("Alimnur N",
+        contacts.add(new Contact("Camilia",
                 "87771234567", R.drawable.user));
-        contacts.add(new Contact("Ikhlas N",
+        contacts.add(new Contact("Amanda",
                 "87789876543", R.drawable.user));
         Collections.sort(contacts, Contact.StuNameComparator);
     }
